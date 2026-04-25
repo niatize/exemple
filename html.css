@@ -1,0 +1,84 @@
+
+body{
+    background-image:
+     linear-gradient(to left,grey,black,rgb(98, 98, 230),rgba(255, 99, 71, 0.973),rgb(92, 92, 223),black,grey);
+    color: white;
+}
+.li,.a{
+    display: inline-flex;
+    text-decoration: none;
+   color: white;
+    margin: 9px;
+   border-radius: 15px;
+    size: 3vw;
+}   
+.li,.a:hover{
+    color: black;
+    background-image: linear-gradient(to left,rgb(20, 194, 238),azure,tomato);
+}
+
+.logo{
+    position: sticky;
+     top: 0;
+}
+.logo{display: block;
+    margin-left: auto; 
+    margin-right: auto;
+    background-position: center;
+    background-size: cover;
+    border-color: aliceblue;
+   border-radius: 100%;
+    width: 15%;
+    height: 15%;
+    mix-blend-mode: hard-light;
+    animation: color 9s infinite ;
+}
+.img1{ height: 20%;
+    width: 10%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+span{
+    color: yellow;
+    font-weight: bold;
+}
+.s1{
+    color:red;
+}
+div{
+    display: block;
+}
+.ex1{
+        height: 30%;
+    width: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;border-color:blue ;border: 4px solid;
+}
+video{height: 30vw;
+    width: 60vw;}
+div{
+    background-color: azure;
+    color: black;
+    border:2px solid tomato;
+    border-radius: 15px;
+}
+div:hover{
+    background-color: transparent;
+}
+li{
+    color: yellow;
+}
+h2,h3,h4,h5,h6,h7{
+    font-size: 3vw;
+    font-weight: bold;
+}
+.px{
+    color: chartreuse;
+    align-content: center;
+}
+p{
+    font-family: comic 'Times New Roman', Times, serif;
+}
